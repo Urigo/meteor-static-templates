@@ -3,5 +3,7 @@ import {
 } from 'meteor/static-html-compiler';
 
 Plugin.registerCompiler({
-  extensions: ['html']
+  extensions: ['html'],
+  archMatching: 'web',
+  isTemplate: true
 }, () => new StaticHtmlCompiler());
