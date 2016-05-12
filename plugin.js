@@ -1,6 +1,6 @@
 import {
   StaticHtmlCompiler,
-} from 'meteor/static-html-compiler';
+} from 'meteor/urigo:static-html-compiler';
 
 Plugin.registerCompiler({
   extensions: ['html'],
