@@ -5,7 +5,7 @@ Meteor plugin for importing static HTML templates
 ## Installation
 
 ```bash
-meteor add static-templates
+meteor add urigo:static-templates
 ```
 
 ## Usage
