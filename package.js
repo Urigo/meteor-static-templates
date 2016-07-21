@@ -10,7 +10,7 @@ Package.registerBuildPlugin({
     'plugin.js'
   ],
   use: [
-    'urigo:static-html-compiler@0.1.5',
+    'urigo:static-html-compiler@0.1.6',
     'ecmascript@0.2.0'
   ]
 });
