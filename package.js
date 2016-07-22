@@ -1,6 +1,6 @@
 Package.describe({
   name: 'urigo:static-templates',
-  version: '0.1.1',
+  version: '0.1.2',
   summary: 'Meteor plugin for importing static HTML templates'
 });
 
@@ -10,7 +10,7 @@ Package.registerBuildPlugin({
     'plugin.js'
   ],
   use: [
-    'urigo:static-html-compiler@0.1.6_1',
+    'urigo:static-html-compiler@0.1.7',
     'ecmascript@0.2.0'
   ]
 });
