@@ -20,3 +20,7 @@ console.log('example.html as string:', example);
 ```js
 import template from 'angular-utils-pagination/dirPagination.tpl.html';
 ```
+
+## Known issues
+
+- TypeScript warnings about missing module [[#9](https://github.com/Urigo/meteor-static-templates/issues/9)]
