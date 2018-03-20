@@ -13,5 +13,5 @@ modules-runtime@0.9.1
 promise@0.10.1
 random@1.1.0
 urigo:static-html-compiler@1.0.0_3
-urigo:static-templates@1.0.0
+urigo:static-templates@1.0.0_2
 url@1.2.0
