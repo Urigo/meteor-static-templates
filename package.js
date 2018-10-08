@@ -11,12 +11,12 @@ Package.registerBuildPlugin({
   ],
   use: [
     'urigo:static-html-compiler@1.1.1',
-    'ecmascript@0.2.0'
+    'ecmascript@0.12.0'
   ]
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.6.1');
+  api.versionsFrom('1.8');
 
   api.use('isobuild:compiler-plugin@1.0.0');
 });
